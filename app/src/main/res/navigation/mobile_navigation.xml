@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_checkin">
+
+    <fragment
+        android:id="@+id/navigation_checkin"
+        android:name="com.example.orangestatus.ui.checkin.CheckinFragment"
+        android:label="@string/title_checkin"
+        tools:layout="@layout/fragment_checkin" />
+
+    <fragment
+        android:id="@+id/navigation_courses"
+        android:name="com.example.orangestatus.ui.courses.CoursesFragment"
+        android:label="@string/title_courses"
+        tools:layout="@layout/fragment_courses" />
+
+    <fragment
+        android:id="@+id/navigation_market"
+        android:name="com.example.orangestatus.ui.market.MarketFragment"
+        android:label="@string/title_market"
+        tools:layout="@layout/fragment_market" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.orangestatus.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_market" />
+</navigation>

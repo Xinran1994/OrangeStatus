@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orangestatus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstActivity"/>
+        <activity android:name=".Course_Edit" />
+        <activity android:name=".Show_Profile_Info" />
+        <activity android:name=".Profile" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ui.others.photo" />
+        <activity android:name=".ui.others.indivisual_info" />
+        <activity android:name=".ui.market.newpost" />
+        <activity android:name=".ui.market.items" />
+        <activity android:name=".ui.market.itemAdapter" />
+        <activity android:name=".ui.checkin.buildings.restaurant" />
+        <activity android:name=".ui.checkin.buildings.library" />
+        <activity android:name=".ui.checkin.buildings.gym" />
+        <activity android:name=".ui.checkin.buildings.bus_stop" />
+        <activity android:name=".ui.checkin.building" />
+        <activity android:name=".ui.animation.splash_anim">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.courses.CSCourses.CIS657" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ui.checkin.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".ui.post.PostList"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ui.post.AddPostActivity"
+            android:parentActivityName=".ui.post.PostList" />
+        <activity android:name=".ui.courses.CECourses.CSE687" />
+        <activity android:name=".ui.courses.CEActivity" />
+        <activity android:name=".ui.courses.EEActivity" />
+        <activity android:name=".ui.courses.CSActivity" />
+        <activity android:name=".ui.courses.EECSActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.orangestatus.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

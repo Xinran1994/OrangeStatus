@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xin1"
+    tools:context=".building">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Select Building "
+            android:textColor="#ffffff"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/btm6"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="80dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:backgroundTint="#777cd6cf "
+            android:text="Library"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#77efa666"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="Restaurant"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:backgroundTint="#779987ce "
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_height="70dp"
+            android:text="Gym"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#7776da91 "
+            android:text="Bus stop"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

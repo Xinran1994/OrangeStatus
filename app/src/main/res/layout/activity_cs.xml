@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.courses.CSActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button623"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/check_border"
+        android:textSize="18dp"
+        android:text="@string/cis623" />
+
+    <Button
+        android:id="@+id/button655"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/check_border"
+        android:textSize="18dp"
+        android:text="@string/cis655" />
+
+    <Button
+        android:id="@+id/button657"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/check_border"
+        android:textSize="18dp"
+        android:text="@string/cis657" />
+
+    <Button
+        android:id="@+id/button675"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/check_border"
+        android:textSize="18dp"
+        android:text="@string/cis675" />
+
+</LinearLayout>

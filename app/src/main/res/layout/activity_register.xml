@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtMail1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:layout_constraintLeft_creator="1" />
+
+    <EditText
+        android:id="@+id/edtPassword1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"
+        tools:layout_constraintLeft_creator="1" />
+
+    <EditText
+        android:id="@+id/edtUsername1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362"
+        tools:layout_constraintLeft_creator="1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.071"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnSignUp1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="REGISTER NOW"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/btnToSignIn1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/colorPrimary"
+        android:text="Sign In"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--    android:background="#FFF8DC">-->
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="40dp">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="   create your account："-->
+<!--        android:textSize="25sp" />-->
+
+<!--</LinearLayout>-->
+<!--&lt;!&ndash; 分割线 &ndash;&gt;-->
+<!--&lt;!&ndash;<View style="@style/bg_line"/>&ndash;&gt;-->
+
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginTop="20dp"-->
+<!--    android:layout_marginLeft="10dp"-->
+<!--    android:layout_marginRight="10dp"-->
+<!--    android:orientation="vertical" >-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal" >-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/et_user_name"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="Email"-->
+<!--            android:maxLength="15"-->
+<!--            android:paddingLeft="6dp"-->
+<!--            android:paddingTop="2dp"-->
+<!--            android:paddingBottom="2dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textSize="18sp" />-->
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal" >-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/et_psw"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="Password"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:maxLength="15"-->
+<!--            android:paddingLeft="6dp"-->
+<!--            android:paddingTop="2dp"-->
+<!--            android:paddingBottom="2dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textSize="18sp" />-->
+<!--    </LinearLayout>-->
+
+
+
+<!--    <LinearLayout-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal" >-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/et_psw_again"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="Confirm Password"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:maxLength="15"-->
+<!--            android:paddingLeft="6dp"-->
+<!--            android:paddingTop="2dp"-->
+<!--            android:paddingBottom="2dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textSize="18sp" />-->
+<!--    </LinearLayout>-->
+
+
+
+<!--    <LinearLayout-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal" >-->
+<!--        <TextView-->
+<!--            android:layout_width="0px"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:paddingLeft="6dp"-->
+<!--            android:gravity="left"-->
+<!--            android:text="gender"-->
+<!--            android:textSize="18sp" />-->
+<!--        <RadioGroup-->
+<!--            android:layout_width="0px"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="2.6"-->
+<!--            android:id="@+id/SexRadio"-->
+<!--            android:paddingLeft="5dp">-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/mainRegisterRdBtnFemale"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="female"/>-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/mainRegisterRdBtnMale"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="male"/>-->
+<!--        </RadioGroup>-->
+<!--    </LinearLayout>-->
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal" >-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/email"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="Username"-->
+<!--            android:maxLength="15"-->
+<!--            android:paddingLeft="6dp"-->
+<!--            android:paddingTop="2dp"-->
+<!--            android:paddingBottom="2dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textSize="18sp" />-->
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal" >-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/phonenumber"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="Phone Number"-->
+<!--            android:maxLength="15"-->
+<!--            android:paddingLeft="6dp"-->
+<!--            android:paddingTop="2dp"-->
+<!--            android:paddingBottom="2dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textSize="18sp" />-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal" >-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/sign"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:hint="Character Signature"-->
+<!--            android:maxLength="15"-->
+<!--            android:paddingLeft="6dp"-->
+<!--            android:paddingTop="2dp"-->
+<!--            android:paddingBottom="2dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:textSize="18sp" />-->
+<!--    </LinearLayout>-->
+
+<!--</LinearLayout>-->
+
+<!--<RelativeLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:layout_marginLeft="10dp"-->
+<!--    android:layout_marginRight="10dp" >-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_register"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="@drawable/buttom1"-->
+<!--        android:text="register_"-->
+<!--        android:textSize="24sp" />-->
+<!--</RelativeLayout>-->
+
+<!--</LinearLayout>-->
+

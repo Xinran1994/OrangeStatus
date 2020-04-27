@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OrangeStatus</string>
+    <string name="title_checkin">Checkin</string>
+    <string name="title_courses">Courses</string>
+    <string name="title_market">Market</string>
+    <string name="title_profile">Profile</string>
+    <string name="cis623">CIS623 -- Structured Programming &amp; Formal Methods</string>
+    <string name="cis655">CIS655 -- Computer Architecture</string>
+    <string name="cis657">CIS657 -- Principles of Operation Systems</string>
+    <string name="cis675">CIS675 -- Design &amp; Analysis of Algorithms</string>
+    <string name="cse687">CSE687 -- Object Oriented Design</string>
+    <string name="OODdescription">Basic methods of object oriented software design and implementation. Object oriented software engineering methodologies: specification, hierarchical decomposition, reuse and extensibility. Implementation of projects in object oriented programming language and analysis of design case studies.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="individual_text1">Email</string>
+    <string name="individual_text2">Phone Number</string>
+    <string name="individual_text3">Character Signature</string>
+    <string name="individual_text4">Credit            5</string>
+    <string name="individual_name">name</string>
+    <string name="individual_gender">gender</string>
+    <string name="my_posts">posts</string>
+
+</resources>

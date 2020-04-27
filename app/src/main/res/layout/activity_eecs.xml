@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityEECS"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.courses.EECSActivity">
+
+
+    <Button
+        android:id="@+id/buttonEE"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="200dp"
+        android:text="EE"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCS"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonCS"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCS" />
+
+    <Button
+        android:id="@+id/buttonCE"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:text="CE"
+        android:textSize="45dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonCS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonCS" />
+
+    <Button
+        android:id="@+id/buttonCS"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="68dp"
+        android:text="CS"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEE"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
